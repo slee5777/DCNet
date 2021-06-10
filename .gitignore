@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+kdsb/Mask_RCNN
+API_KEY.txt
+data
