@@ -1,0 +1,28 @@
+name: nuclei
+channels:
+- fastai
+- pytorch
+- defaults
+dependencies:
+- jupyter
+- pytorch>=1.6.0
+- torchvision
+- matplotlib
+- fastprogress
+- python>=3.7
+- pip
+- scikit-learn
+- scipy
+- fastai
+- pip:
+  - nbdev
+  - fastcore
+  - labelbox
+  - shapely
+  - wget
+  - scikit-image
+  - opencv-python
+  - openslide-python
+  - google-api-python-client
+  - google-auth-httplib2
+  - google-auth-oauthlib
