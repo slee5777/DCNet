@@ -28,3 +28,6 @@ Mask-RCNN (ablation model): https://drive.google.com/file/d/1REq4UUfKk3tuKn7Ks4
 ```
 
 Download and unzip the data folder to the root of this project directory
+
+## Schematic diagram
+see dcnet-resnet34-entire-model.onnx.svg
