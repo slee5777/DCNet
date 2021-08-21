@@ -1,5 +1,5 @@
-# DCNet
-Computer vision for differential cell counts in cytopathology images (to be linked to Scientific Report)
+# [Differential cell counts using center‑point networks achieves human‑level accuracy and efficiency over segmentation](https://doi.org/10.1038/s41598-021-96067-3) 
+published in Scientific Report on 19 August 2021
 
 ## Setup
 1. In order to run this notebook, please follwing the fast.ai environment setup instruction.
@@ -30,6 +30,29 @@ All the data and models used for this project can be found here:
 Full data + models: https://drive.google.com/file/d/1JxSfyzxZlqUtoN_JPUzTzWq7_qPj95zw/view?usp=sharing
 Data Only (Cytospin + KDSB): https://drive.google.com/file/d/1Mx11mSoGq-pYkivzayG0hvSedMBsKRBG/view?usp=sharing
 Mask-RCNN (ablation model): https://drive.google.com/file/d/1REq4UUfKk3tuKn7Ks42xHY18IjedR7_Y/view?usp=sharing
+```
+
+## Cite this article
+```
+TY  - JOUR
+AU  - Lee, Sarada M. W.
+AU  - Shaw, Andrew
+AU  - Simpson, Jodie L.
+AU  - Uminsky, David
+AU  - Garratt, Luke W.
+PY  - 2021
+DA  - 2021/08/19
+TI  - Differential cell counts using center-point networks achieves human-level accuracy and efficiency over segmentation
+JO  - Scientific Reports
+SP  - 16917
+VL  - 11
+IS  - 1
+AB  - Differential cell counts is a challenging task when applying computer vision algorithms to pathology. Existing approaches to train cell recognition require high availability of multi-class segmentation and/or bounding box annotations and suffer in performance when objects are tightly clustered. We present differential count network (“DCNet”), an annotation efficient modality that utilises keypoint detection to locate in brightfield images the centre points of cells (not nuclei) and their cell class. The single centre point annotation for DCNet lowered burden for experts to generate ground truth data by 77.1% compared to bounding box labeling. Yet centre point annotation still enabled high accuracy when training DCNet on a multi-class algorithm on whole cell features, matching human experts in all 5 object classes in average precision and outperforming humans in consistency. The efficacy and efficiency of the DCNet end-to-end system represents a significant progress toward an open source, fully computationally approach to differential cell count based diagnosis that can be adapted to any pathology need.
+SN  - 2045-2322
+UR  - https://doi.org/10.1038/s41598-021-96067-3
+DO  - 10.1038/s41598-021-96067-3
+ID  - Lee2021
+ER  - 
 ```
 
 ## Disclaimer
